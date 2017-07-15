@@ -54,6 +54,7 @@ data:
       created: 2009
       tags: 
         - speed
+        - memory
       type: Key-value
       written: C
     - name: Elasticsearch
