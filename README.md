@@ -1,2 +1,3 @@
-# databases-research
-Databases research
+# Databases research
+
+List of databases with their features.
