@@ -58,6 +58,8 @@ data:
       written: C
     - name: Elasticsearch
       type: Search Engine
+      tags:
+        - search
       written: Java
     - name: Solr
       type: Search Engine
