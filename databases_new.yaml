@@ -54,3 +54,7 @@
   url: https://neo4j.com/
   created: 2007
   written: Scala
+- name: Bigtable
+  created: 2005
+  written: C++
+  url: https://cloud.google.com/bigtable/
