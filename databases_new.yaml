@@ -27,9 +27,7 @@
   type: Key-value
 - name: Redis
   created: 2009
-  tags: 
-    - speed
-    - memory
+  tags: speed,memory,cache,queue,fpc,pubsub
   type: Key-value
   written: C
 - name: Elasticsearch
@@ -51,6 +49,8 @@
   created: 1989
 - name: Neo4j
   type: Graph
+  tags: graph,recommendations
+  usage: Fraud detection, Recommendation system, Link analysis
   url: https://neo4j.com/
   created: 2007
   written: Scala
