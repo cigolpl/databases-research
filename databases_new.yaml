@@ -4,8 +4,8 @@
   tags:
     - json
     - aggregation
+    - big data
     - geospatial
-  created: 1989
   type: Document
   written: C++
 - name: MySQL
@@ -27,9 +27,10 @@
   type: Key-value
 - name: Redis
   created: 2009
-  tags: speed,memory,cache,queue,fpc,pubsub
+  tags: speed,memory,cache,queue,fpc,pubsub, realtime
   type: Key-value
   written: C
+  usage: caching, realtime analytics
 - name: Elasticsearch
   type: Search Engine
   tags:
@@ -50,7 +51,7 @@
 - name: Neo4j
   type: Graph
   tags: graph,recommendations
-  usage: Fraud detection, Recommendation system, Link analysis
+  usage: fraud detection, recommendation system, link analysis
   url: https://neo4j.com/
   created: 2007
   written: Scala
@@ -58,3 +59,16 @@
   created: 2005
   written: C++
   url: https://cloud.google.com/bigtable/
+  tags: ['analytics', 'search', 'low latency', 'high throughput', 'petabytes', 'scalable', 'no downtime']
+  usage: ['IoT', 'user analytics', 'financial data analysis']
+- name: Hypertable
+- name: Accumulo
+- name: OrientDB
+- name: Couchbase
+  tags: low latency, high concurrency, high availability
+  written: Erlang, C
+- name: Riak
+  tags: fault tolerance
+  written: Erlang, Riak, JavaScript
+- name: Scalaris
+- name: VoltDB
