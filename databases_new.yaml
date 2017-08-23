@@ -15,10 +15,12 @@
   written: C++
 - name: MySQL
   url: https://www.mysql.com/
+  written: C,C++
   created: 1995
 - name: SQLite
-  url: https://www.sqlite.org/
   type: RDBMS
+  url: https://www.sqlite.org/
+  written: C
   tags:
     - self contained
     - serverless
@@ -70,6 +72,7 @@
   creator: Facebook
   written: C
 - name: PostgreSQL
+  url: https://www.postgresql.org/
   type: RDBMS
   created: 1989
 - name: Neo4j
@@ -93,12 +96,15 @@
   url: http://www.hypertable.com/
   written: C++
 - name: Accumulo
+  url: https://accumulo.apache.org/
+  tags: access control,scalability,hadoop
   type: Wide column store
 - name: OrientDB
 - name: Couchbase
   tags: low latency, high concurrency, high availability
   written: Erlang, C
 - name: Riak
+  url: http://basho.com/
   tags: fault tolerance
   written: Erlang, Riak, JavaScript
 - name: Scalaris
