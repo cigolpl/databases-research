@@ -38,6 +38,9 @@
   written: Java
 - name: Memcache
   type: Key-value
+  url: https://memcached.org/
+  tags: cache,memory
+  usage: caching
 - name: Redis
   url: https://redis.io/
   created: 2009
@@ -47,7 +50,7 @@
   usage: caching, realtime analytics
 - name: Elasticsearch
   type: Search Engine
-  url: https://www.elastic.co/products/elasticsearch
+  url: https://www.elastic.co
   tags:
     - search
     - full text
@@ -60,8 +63,11 @@
   written: Java
   created: 2004
   desc: A widely used enterprise search engine based on Apache Lucene
-- name: Rocksdb
+- name: RocksDB
+  url: http://rocksdb.org/
+  tags: speed,high performance,fast storage
   type: Key-value
+  creator: Facebook
   written: C
 - name: PostgreSQL
   type: RDBMS
@@ -73,14 +79,21 @@
   url: https://neo4j.com/
   created: 2007
   written: Scala
-- name: Bigtable
+- name: BigTable
   created: 2005
+  creator: Google
   written: C++
+  type: Wide column store
   url: https://cloud.google.com/bigtable/
   tags: ['analytics', 'search', 'low latency', 'high throughput', 'petabytes', 'scalable', 'no downtime']
   usage: ['IoT', 'user analytics', 'financial data analysis']
 - name: Hypertable
+  tags: big data,baidu, performance,hadoop
+  type: Wide column store
+  url: http://www.hypertable.com/
+  written: C++
 - name: Accumulo
+  type: Wide column store
 - name: OrientDB
 - name: Couchbase
   tags: low latency, high concurrency, high availability
@@ -90,3 +103,20 @@
   written: Erlang, Riak, JavaScript
 - name: Scalaris
 - name: VoltDB
+  url: https://www.voltdb.com/
+  tags: accuracy,in-memory,speed,data points,sql,java procedures,crash recovery,high availability,parallelism
+  type: RDBMS
+- name: Cassandra
+  type: Wide column store
+- name: Scylla
+  type: Wide column store
+  tags: sharding,speed
+  created: 2015
+  written: C++
+- name: Quasardb
+  type: Key-value
+  url: http://www.quasardb.net/
+  tags: distributed,transactional,key value, time series, distributed indexes
+  usage: trading market data
+  created: 2015
+  written: C++
