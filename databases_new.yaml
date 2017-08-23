@@ -101,8 +101,11 @@
   type: Wide column store
 - name: OrientDB
 - name: Couchbase
-  tags: low latency, high concurrency, high availability
-  written: Erlang, C
+  url: https://www.couchbase.com/
+  type: Document
+  tags: low latency, high concurrency, high availability,multitenancy,persistence,data replication
+  created: 2010
+  written: Erlang, C, C++
 - name: Riak
   url: http://basho.com/
   tags: fault tolerance
