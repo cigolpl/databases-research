@@ -132,6 +132,6 @@
 - name: Algolia
   type: Search Engine
   url: https://www.algolia.com/
-  tags: search, full text, recommendation system,faceting, geolocation, speed, miliseconds, autocomplete
+  tags: search, full text,faceting, geolocation, saas, speed, miliseconds, autocomplete
   usage: ecommerce, mobile, autocomplete
   written: C
