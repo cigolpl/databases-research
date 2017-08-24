@@ -135,3 +135,14 @@
   tags: search, full text,faceting, geolocation, saas, speed, miliseconds, autocomplete
   usage: ecommerce, mobile, autocomplete
   written: C
+- name: LevelDB
+  url: https://github.com/google/leveldb
+  tags: speed, compression, simplicity, atomic batch, atomic, snapshots, single process, embeddable
+  type: Key-value
+  creator: Google
+  written: C++
+- name: OrientDB
+  url: http://orientdb.com/
+  tags: graph,geospatial,reactive,speed
+  type: Multi-Model
+  written: Java
