@@ -146,3 +146,8 @@
   tags: graph,geospatial,reactive,speed
   type: Multi-Model
   written: Java
+- name: Druid
+  url: http://druid.io/
+  tags: analytics, aggregations, column, dashboards, streams, batches, group, filters, business intelligence
+  type: Wide column store
+  written: Java
