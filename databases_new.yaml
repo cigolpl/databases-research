@@ -151,3 +151,5 @@
   tags: analytics, aggregations, column, dashboards, streams, batches, group, filters, business intelligence
   type: Wide column store
   written: Java
+- name: Gun
+  url: http://gun.js.org/
